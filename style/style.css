@@ -1,0 +1,302 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.img {
+   width: 100%;
+   height: 50px;
+   background-color: #fff;
+}
+.img img {
+    width: 100px;
+    height: 60px;
+}
+
+.icon {
+    width: 100%;
+    height: 40px;
+   
+}
+
+ul li {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+ul li a {
+    font-size: 14px;
+    text-decoration: none;
+    font-family: 'Battambang', cursive;
+    line-height: 40px;
+    color: black;
+    font-weight: bold ;
+    cursor: pointer;
+    transition: all 0.1s;
+}
+
+ul li input {
+    padding-left: 10px;
+    padding: 3px;
+    margin-left: 20px;
+    width: 180px;
+    border-radius: 4px;
+    border: none;
+}
+
+ul li button {
+    padding: 2px 5px;
+    border-radius: 4px;
+    border: none;
+}
+
+ul li a:hover {
+    background-color: rgba(0, 0, 255, 0.168);
+    padding: 6px 0px;
+    color: black;
+}
+
+.container-body {
+    width: 100%;
+    height: 1000px;
+    margin-top: 170px;
+    border-bottom: 1px solid ;
+}
+
+.fixed {
+    position: fixed;
+    top: 0;
+}
+
+.pic-img {
+    width: 100%;
+}
+
+.pic-img img {
+    width: 100%;
+    height: 450px;
+    object-fit: cover;
+}
+
+.text-1 {
+    width: 100%;
+    height: 200px;
+    border-bottom: 1px solid;
+}
+
+.text-1 h3 {
+    margin-top: 20px;
+    font-family: 'Battambang', cursive;
+    cursor: pointer;
+}
+.text-1 h3:hover {
+    color: rgb(78, 86, 94);
+}
+.text-2 h5:hover {
+    color: rgb(78, 86, 94);
+}
+.text-3 h5:hover {
+    color: rgb(78, 86, 94);
+}
+
+.text-1 p {
+    margin-top: 20px;
+    font-family: 'Battambang', cursive;
+}
+
+.text-2 h5 {
+    margin-top: 25px;
+    font-family: 'Battambang', cursive;
+    font-weight: bold ;
+    cursor: pointer;
+}
+
+.text-3 {
+    font-family: 'Battambang', cursive;
+}
+
+.text-3 h5 {
+    margin-top: 30px;
+    font-weight: bold ;
+    cursor: pointer;
+    font-family: 'Battambang', cursive;
+}
+.left button{
+    width: 200px;
+    height: 40px;
+    margin-left: 30px ;
+    background: rgb(232, 232, 232);
+    border: 1px solid #fff;
+    border-radius: 10px;
+}
+.text-4{
+    border-bottom: 1px solid ;
+}
+.text-4 p{
+    font-size: 15px;
+    margin-top: 20px ;
+    font-family: 'Battambang', cursive;
+}
+.img-2{
+    width: 100%;
+    overflow: hidden;
+    border-bottom: 1px solid ;
+}
+.img-2 #button{
+    width: 100%;
+    height: 50px ;
+    margin-top: 10px;
+    margin-left: 0px ;
+    color: #fff;
+    font-size: 25px ;
+    font-family: 'Battambang', cursive;
+    border-radius: 0px ;
+    background-color: rgba(0, 0, 0, 0.663);
+}
+.img-2>img{
+    width: 100%;
+    object-fit: cover;
+    margin-top: 20px ;
+  
+}
+.img-2>h5{
+    margin-top: 20px ;
+    font-family: 'Battambang', cursive;
+    font-weight: bold;
+    cursor: pointer;
+}
+.img-2>h5:hover{
+    color: rgb(78, 86, 94);
+}
+.img-2>p{
+    margin-top: 20px ;
+    font-family: 'Battambang', cursive;
+}
+.img-3{
+    width:100%;
+    overflow: hidden;
+     
+}
+.img-3 img{
+    width: 100%;
+    object-fit: cover ;
+}
+.img-3 h5{
+    margin-top: 10px ;
+    font-family: 'Battambang', cursive;
+    font-weight: bold ;
+    cursor: pointer;
+}
+.img-3 h5:hover{
+    color: rgb(78, 86, 94);
+}
+.img-3 p{
+    font-family: 'Battambang', cursive;
+}
+.item{
+    width: 100%;
+    height: 1000px ;
+}
+.text-5{
+    width: 100%;
+    height: 250px ;
+    overflow: hidden;
+
+    font-family: 'Battambang', cursive;
+}
+.text-5 h5{
+    font-family: 'Battambang', cursive;
+    font-weight: bold;
+    cursor: pointer;
+}
+.text-5 h5:hover{
+    color: rgb(78, 86, 94);
+}
+.nav{
+    width: 100%;
+    height: 30px ;
+}
+.text-6{
+    font-family: 'Battambang', cursive;
+    width: 100%;
+    height: 150px ;
+    border-bottom: 1px solid ;
+}
+.text-6 h4 {
+    font-family: 'Battambang', cursive;
+    font-weight: bold;
+}
+.text-6 p{
+    margin-top: 20px;
+}
+#btn{
+    margin-left: 20px ;
+    margin-top: 20px ;
+    padding: 20px 10px;
+    border: none;
+    background-color: rgba(0, 0, 0, 0.26);
+}
+.text-9{
+    font-family: 'Battambang', cursive;
+    border-bottom: 1px solid ;
+    height: 350px;
+ 
+}
+.text-9 h5{
+    font-family: 'Battambang', cursive;
+    font-weight: bold ;
+    margin-top: 20px ;
+    cursor: pointer;
+ 
+}
+.text-9 h5:hover{
+    color: rgb(78, 86, 94);
+}
+.border-bottom{
+    width: 100%;
+    height: 300px;
+    border-bottom: 1px solid;
+}
+.text-8{
+    font-family: 'Battambang', cursive;
+}
+.text-8 p{
+    font-family: 'Battambang', cursive;
+    margin-top: 10px;
+    font-size: 15px ;
+}
+.text-11{
+    width: 100%;
+    height: 100px;
+    border-bottom: 1px solid;
+    font-family: 'Battambang', cursive;
+    font-weight: bold;
+}
+.text-11 h4{
+  
+    font-family: 'Battambang', cursive;
+    font-weight: bold;
+}
+.footer{
+    border-top: 1px solid ;
+}
+.text-12{
+    font-family: 'Battambang', cursive;
+    cursor: pointer;
+}
+.text-13{
+    font-family: 'Battambang', cursive;
+    cursor: pointer;
+}
+.text-14{
+    font-family: 'Battambang', cursive;
+    cursor: pointer;
+}
+.text-15{
+    font-family: 'Battambang', cursive;
+    cursor: pointer;
+}
+h6:hover{
+    color: red;
+}
